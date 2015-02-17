@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">tarea2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_share">Compartir</string>
+    <string name="action_favorite">Favoritos</string>
+    <string name="title_activity_store_information">storeInformationActivity</string>
+    <string name="title_activity_image_detail">imageDetailActivity</string>
+    <string name="titulo">titulo</string>
+    <string name="share_store">Hey you need look this... %1$s</string>
+    <string name="title_fragment_listado">Listado</string>
+    <string name="title_fragment_tienda">Tiendas</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="msg_about">esta es la tarea 2</string>
+    <string-array name="drawner_option">
+        <item>Tiendas</item>
+        <item>Imagenes</item>
+        <item>Comunidad</item>
+    </string-array>
+
+</resources>

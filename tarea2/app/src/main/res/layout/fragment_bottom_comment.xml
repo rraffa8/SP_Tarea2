@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rafacuevas.tarea2.com.example.rafacuevas.tarea2.fragments.bottomCommentFragment">
+
+    <ImageView
+        android:id="@+id/imageComment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_mail_add"
+        android:layout_above="@+id/imageSend"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/comentario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agrega tu comentario..."
+        android:layout_below="@+id/imageComment"
+        android:layout_alignLeft="@+id/imageComment"
+        android:layout_alignParentBottom="true"
+        />
+
+    <Button
+        android:id="@+id/imageSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:drawableBottom="@drawable/ic_action_send"
+        android:layout_alignParentEnd="true" />
+
+
+
+</RelativeLayout>
